@@ -5,7 +5,7 @@ def display_board
     c += 1
     if c % 2 == 0
       puts "-----------"
-    elsif c % 2 == 1
+    else
       puts "   |   |   "
     end
   end
